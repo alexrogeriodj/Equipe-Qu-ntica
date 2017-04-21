@@ -1,1 +1,1 @@
-# Equipe-Qu-ntica
+# Equipe-Quântica
