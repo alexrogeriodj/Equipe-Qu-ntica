@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "77321853290",
+    "firebase_url": "https://amigosdapraca-76d54.firebaseio.com",
+    "project_id": "amigosdapraca-76d54",
+    "storage_bucket": "amigosdapraca-76d54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77321853290:android:b50854656a00fcbd",
+        "android_client_info": {
+          "package_name": "com.quantica.amigodapraca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77321853290-0trbqqdnj5n639qtclef4uer6amh8j2d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.quantica.amigodapraca",
+            "certificate_hash": "02d0b6c3e43f228b1ccaa99f71191632d839e3e8"
+          }
+        },
+        {
+          "client_id": "77321853290-chesi1mmnmrfkabc5aoomg4pvig2p498.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDugRA5D-3zlWOwmmj2zeufcM6vQ0Ctn4M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77321853290-chesi1mmnmrfkabc5aoomg4pvig2p498.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

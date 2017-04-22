@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    card_view:cardBackgroundColor="@color/claro"
+    card_view:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imagem"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@color/afirmativo" />
+
+        <TextView
+            android:id="@+id/nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imagem"
+            android:layout_toRightOf="@+id/imagem"
+            android:text="Titulo"
+            android:textColor="@color/escuro"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="15dp"
+            android:text="00:00"
+            android:textColor="@color/escuro"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/descricao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/escuro"
+            android:layout_alignEnd="@+id/data"
+            android:layout_alignRight="@+id/data"
+            android:layout_below="@+id/nome"
+            android:layout_marginTop="13dp"
+            android:layout_toEndOf="@+id/imagem"
+            android:layout_toLeftOf="@+id/nome"
+            android:layout_toRightOf="@+id/imagem"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor nisl hendrerit, mattis erat ac, pulvinar lorem. Integer scelerisque justo nec tristique ornare."
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            card_view:srcCompat="@drawable/arquivo"
+            android:layout_below="@+id/descricao"
+            android:layout_alignLeft="@+id/descricao"
+            android:layout_alignStart="@+id/descricao" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
